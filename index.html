@@ -2,30 +2,69 @@
 <html lang="en-ca">
 <head>
 	<meta charset="utf-8">
-	<title>Responsive Setup</title>
+	<title>Exercise 2</title>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
+    
 <body>
 
-	<h1>Intro to SCSS</h1>
+	<div class="grid">      
     
-    <a href="#" class="primary-btn">Primary</a>
-    <a href="#" class="secondary-btn">Secondary Button</a>
+    <header class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+        <h1>Project Initiative Form — Creative Services</h1>
         
-    <div class="border">
-      <p>This is a nested paragraph</p>
-    </div>
-
-    <p>This is a paragraph.</p>
+        <p>Follow these simple steps so we can get cracking.</p>
+        
+        <div class="center-v rotate">
+            <a href="#second"><i class="icon-left-open-big"></i></a>
+        </div>
+        
+    </header>
     
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
+ 
+    <div class="sec-1 unit unit-s-1 unit-m-1-2 unit-l-1-2" id="second">
+        <div class="fill-sec">
+            <a href="#"><i class="icon-form-01 icon"></i></a>
+            <p>Fill the form and save as a pdf.</p>
+        </div>
+        <div class="center-v no-mar rotate up rotate-2">
+            <a href="#third"><i class="icon-left-open-big"></i></a>
+        </div>
+          
+    </div>
+</div>
+        
+<div class="grid">    
+    <div class="sec-2 unit unit-s-1 unit-m-1-2 unit-l-1-2" id="third">
+        <div class="mail-sec">
+            <a href="google.com"><i class="icon-mail-02 icon rotate"></i></a>
+            <p>When you've compleated the form e-mail it to:</p>
+            <p>colombinaanzivino@gmail.com</p>
+        </div>
+        <div class="center-v no-mar rotate up-2">
+            <a href="#fourth"><i class="icon-left-open-big"></i></a>
+        </div>
+    </div>
+    
+    <div class="sec-3 unit unit-s-1 unit-m-1-2 unit-l-1-2" id="fourth">
+        <div class="call-sec">
+            <a href=""><i class="icon-call-03 icon"></i></a>
+            <p>If you have any questions call (613)325-7272</p>
+        </div>
+        
+         <div class="center-v no-mar btn move">
+            <a class="ease-all" href="img/initiation-form-interactive-secure.pdf.zip"> Let's Start</a>
+        </div>
+    </div>
+</div>
+  
+    <footer>
+        <p>© Colombina Anzivino 2015</p>
+    </footer>
     
 </body>
 </html>
